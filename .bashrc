@@ -1,7 +1,6 @@
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
-
 export WORKSPACE=$HOME/workspace
 export PYTHONPATH=$PYTHONPATH:$WORKSPACE/research_common
 export PYTHONPATH=$PYTHONPATH:$WORKSPACE/valuation_common
@@ -9,6 +8,7 @@ export PYTHONPATH=$PYTHONPATH:$WORKSPACE/d1_trading_common
 export PYTHONPATH=$PYTHONPATH:$WORKSPACE/ccfx_research
 export PYTHONPATH=$PYTHONPATH:$WORKSPACE/ccfx_configs
 export PYTHONPATH=$PYTHONPATH:$WORKSPACE/ccfx_data_processing
+export PYTHONPATH=$PYTHONPATH:$WORKSPACE/log_parsers
 export PYTHONPATH=$PYTHONPATH:$WORKSPACE/info_protocol_lib/info_protocol
 export PYTHONPATH=$PYTHONPATH:$WORKSPACE/exec_protocol_lib/exec_protocol
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/usr/local/lib"
