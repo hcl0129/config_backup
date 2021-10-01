@@ -2,15 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 export WORKSPACE=$HOME/workspace
-export PYTHONPATH=$PYTHONPATH:$WORKSPACE/research_common
-export PYTHONPATH=$PYTHONPATH:$WORKSPACE/valuation_common
-export PYTHONPATH=$PYTHONPATH:$WORKSPACE/d1_trading_common
-export PYTHONPATH=$PYTHONPATH:$WORKSPACE/ccfx_research
-export PYTHONPATH=$PYTHONPATH:$WORKSPACE/ccfx_configs
-export PYTHONPATH=$PYTHONPATH:$WORKSPACE/ccfx_data_processing
-export PYTHONPATH=$PYTHONPATH:$WORKSPACE/log_parsers
-export PYTHONPATH=$PYTHONPATH:$WORKSPACE/info_protocol_lib/info_protocol
-export PYTHONPATH=$PYTHONPATH:$WORKSPACE/exec_protocol_lib/exec_protocol
+export PYTHONPATH=$PYTHONPATH:$WORKSPACE/hello_world
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:"/usr/local/lib"
 
 # If not running interactively, don't do anything
@@ -58,7 +50,7 @@ esac
 
 export CLICOLOR=1                                                                                                                              
 export LSCOLORS=ExGxFxdaCxDaDahbadeche
-export PS1='\[\033[01;36m\]\u@local-research-1\[\033[01;32m\] \W\$\[\033[00m\] '
+export PS1='\[\033[01;36m\]\u@hostname\[\033[01;32m\] \W\$\[\033[00m\] '
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
