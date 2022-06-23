@@ -73,8 +73,6 @@ alias la='ls -A'
 alias l='ls -CF'
 
 alias python='python3'
-alias pip='/home/chlhuang/anaconda3/bin/pip'
-alias pip3='/home/chlhuang/anaconda3/bin/pip3'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
